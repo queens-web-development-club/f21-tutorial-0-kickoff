@@ -1,0 +1,44 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+body {
+  margin-top: 5em;
+  padding: 1em;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  font-style: italic;
+}
+
+p {
+  width: 75ch;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin-top: 3em;
+  margin-left: 5em;
+  border-radius: 100%;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.35em 0.85em;
+  border-radius: 10px;
+
+  background: darkgrey;
+  color: white;
+  transition: all 350ms ease-in-out;
+}
+
+a:hover {
+  color: white;
+  background: rgb(230, 154, 124);
+}
